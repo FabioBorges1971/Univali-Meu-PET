@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Animal de Estimação</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f8fb;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+    }
+
+    .topo {
+      background: linear-gradient(135deg, #6ec6ff, #81ecec);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .topo h1 {
+      margin: 0;
+      font-size: 2.4rem;
+    }
+
+    .topo p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+
+    .conteudo {
+      padding: 30px;
+    }
+
+    .foto {
+      width: 100%;
+      max-height: 420px;
+      object-fit: cover;
+      border-radius: 14px;
+      margin-bottom: 25px;
+    }
+
+    .secao {
+      margin-bottom: 28px;
+    }
+
+    .secao h2 {
+      color: #0984e3;
+      margin-bottom: 10px;
+    }
+
+    .caracteristicas {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+    }
+
+    .caracteristicas li {
+      background: #eef7ff;
+      padding: 12px;
+      border-radius: 10px;
+    }
+
+    .rodape {
+      text-align: center;
+      padding: 20px;
+      background: #f0f6fa;
+      color: #666;
+      font-size: 0.95rem;
+    }
+
+    .botao {
+      display: inline-block;
+      margin-top: 10px;
+      background: #0984e3;
+      color: white;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 10px;
+    }
+
+    .botao:hover {
+      background: #066fc0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="topo">
+      <h1>Meu Animal de Estimação</h1>
+      <p>Uma página especial para apresentar seu melhor amigo</p>
+    </header>
+
+    <main class="conteudo">
+      <img
+        class="foto"
+        src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=1200&q=80"
+        alt="Foto de um cachorro"
+      >
+
+      <section class="secao">
+        <h2>Nome</h2>
+        <p><strong>Thor</strong></p>
+      </section>
+
+      <section class="secao">
+        <h2>Sobre ele</h2>
+        <p>
+          Thor é um cachorro muito brincalhão, carinhoso e cheio de energia.
+          Ele adora passear, correr no quintal e passar o tempo com a família.
+        </p>
+      </section>
+
+      <section class="secao">
+        <h2>Características</h2>
+        <ul class="caracteristicas">
+          <li><strong>Espécie:</strong> Cachorro</li>
+          <li><strong>Raça:</strong> Golden Retriever</li>
+          <li><strong>Idade:</strong> 3 anos</li>
+          <li><strong>Cor:</strong> Dourado</li>
+          <li><strong>Comida favorita:</strong> Ração e petiscos</li>
+          <li><strong>Hobby:</strong> Brincar com bola</li>
+        </ul>
+      </section>
+
+      <section class="secao">
+        <h2>Curiosidades</h2>
+        <p>
+          Ele sabe sentar, dar a pata e correr quando escuta a palavra
+          “passeio”. Também gosta muito de tomar banho de mangueira.
+        </p>
+        <a href="#" class="botao">Ver mais fotos</a>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      Página HTML criada para apresentar um animal de estimação
+    </footer>
+  </div>
+</body>
+</html>
