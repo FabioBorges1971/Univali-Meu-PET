@@ -1,9 +1,10 @@
+```html id="jx0v42"
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Animal de Estimação</title>
+  <title>Univali - Meu PET</title>
   <style>
     body {
       margin: 0;
@@ -22,7 +23,7 @@
     }
 
     .topo {
-      background: linear-gradient(135deg, #6ec6ff, #81ecec);
+      background: linear-gradient(135deg, #0099cc, #00c2a8);
       color: white;
       text-align: center;
       padding: 40px 20px;
@@ -55,7 +56,7 @@
     }
 
     .secao h2 {
-      color: #0984e3;
+      color: #0099cc;
       margin-bottom: 10px;
     }
 
@@ -84,7 +85,7 @@
     .botao {
       display: inline-block;
       margin-top: 10px;
-      background: #0984e3;
+      background: #0099cc;
       color: white;
       text-decoration: none;
       padding: 12px 20px;
@@ -92,15 +93,15 @@
     }
 
     .botao:hover {
-      background: #066fc0;
+      background: #007aa3;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <header class="topo">
-      <h1>Meu Animal de Estimação</h1>
-      <p>Uma página especial para apresentar seu melhor amigo</p>
+      <h1>Univali - Meu PET</h1>
+      <p>Uma página especial para apresentar seu animal de estimação</p>
     </header>
 
     <main class="conteudo">
@@ -111,15 +112,15 @@
       >
 
       <section class="secao">
-        <h2>Nome</h2>
+        <h2>Nome do PET</h2>
         <p><strong>Thor</strong></p>
       </section>
 
       <section class="secao">
-        <h2>Sobre ele</h2>
+        <h2>Sobre o PET</h2>
         <p>
           Thor é um cachorro muito brincalhão, carinhoso e cheio de energia.
-          Ele adora passear, correr no quintal e passar o tempo com a família.
+          Ele gosta de correr, brincar com bola e passear com a família.
         </p>
       </section>
 
@@ -131,23 +132,24 @@
           <li><strong>Idade:</strong> 3 anos</li>
           <li><strong>Cor:</strong> Dourado</li>
           <li><strong>Comida favorita:</strong> Ração e petiscos</li>
-          <li><strong>Hobby:</strong> Brincar com bola</li>
+          <li><strong>Brincadeira favorita:</strong> Buscar a bola</li>
         </ul>
       </section>
 
       <section class="secao">
         <h2>Curiosidades</h2>
         <p>
-          Ele sabe sentar, dar a pata e correr quando escuta a palavra
-          “passeio”. Também gosta muito de tomar banho de mangueira.
+          Thor sabe dar a pata, sentar e correr quando ouve a palavra
+          “passeio”. Também gosta muito de água e de brincar ao ar livre.
         </p>
         <a href="#" class="botao">Ver mais fotos</a>
       </section>
     </main>
 
     <footer class="rodape">
-      Página HTML criada para apresentar um animal de estimação
+      Projeto acadêmico - Univali - Meu PET
     </footer>
   </div>
 </body>
 </html>
+```
